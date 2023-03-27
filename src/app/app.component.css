@@ -1,0 +1,106 @@
+.form-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.recipe-container {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input-container {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub_input-container {
+    width: 240px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container,
+.sub_input-container label {
+    font-size: 18px;
+    color: #774444;
+}
+
+.input-container input {
+    height: 30px;
+    border: 2px solid #774444;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.sub_input-container input {
+    height: 30px;
+    border: 2px solid #774444;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.sub_inputbtn-container {
+    width: 240px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit-btn {
+    height: 50px;
+    background-color: #774444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+.recipe-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-btn {
+    width: 100px;
+    height: 40px;
+    background: rgb(136, 91, 7);
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.remove-btn {
+    width: 80px;
+    height: 30px;
+    background: rgb(136, 91, 7);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.add-header {
+    font-size: 24px;
+    color: rgb(136, 91, 7);
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #4b0808;
+    margin: 20px 0;
+}
